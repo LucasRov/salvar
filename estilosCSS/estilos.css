@@ -1,0 +1,199 @@
+.fondo{
+    background-image: url(/img/ImagenFondo.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 100%;
+}
+/*ESTILOS GENERALES*/
+/*ESTILOS NAV*/
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background: rgb(2,0,36);
+    background: linear-gradient(347deg, rgba(2,0,36,1) 0%, rgba(7,81,188,1) 50%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: end;
+}
+
+.nav-item a{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(0, 0, 195, 0.774)
+}
+
+.nav-item a:hover{
+    transform: scale(1.2);
+    background: rgb(14,8,119);
+    background: linear-gradient(347deg, rgba(14,8,119,1) 0%, rgba(0,3,110,1) 35%, rgba(0,46,147,1) 96%);
+    }
+
+@media screen and (max-width:992px){
+     
+    .navbar-nav li{
+        display: flex;
+        justify-content: flex-end;
+        margin: 1%;
+    }
+
+    .navbar-nav li a{
+        text-align: center;
+        width: 20%;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: rgba(0, 0, 195, 0.774);
+    }
+}
+
+@media screen and (min-width:992px){
+    #navbarNav{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10%;
+    }
+    
+   .navbar-nav li{
+    margin: 3%;
+    } 
+}
+
+.logo{
+    width: 150px;
+}
+
+
+/*FIN ESTILOS NAV*/
+h1{
+    margin-top: 15%;
+    text-align: center;
+    color: blue;
+    font-weight: 500;
+    font-size:3rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin: 5%;
+}
+
+.estudio{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+    margin: 2%;
+}
+
+@media screen and (max-width:992px){
+    h1{
+        margin-top: 30%
+    }
+}
+
+
+/*FIN ESTILOS GENERALES*/
+
+
+/*COMIENZA ESTILOS INDEX*/
+
+@media screen and (max-width:992px){
+    .video video{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .video video{
+        margin-top: 15%;
+    }
+}
+
+
+/*FIN ESTILOS INDEX*/
+
+
+/*ESTILOS PAGE NOSOTROS*/
+.textoTitulo{
+    margin: 5%;
+}
+
+.imagenPersonal img{
+    width: 70%;
+}
+@media screen and (min-width:992px){
+    
+    .imagenHistoria{
+        display: flex;
+        justify-content: center;
+    }
+    .imagenHistoria img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:992px){
+    .imagenPersonal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagen{
+        width: 50%;
+    }
+    .historia{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+/*FIN ESTILOS NOSOTROS*/
+
+/*COMIENZA ESTILOS PORTAFOLIO.*/
+
+.cajaClientes{
+    margin: 5%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow:rgba(0, 0, 0, 0.80) 0px -50px 36px -28px inset;
+
+}
+.descripcion{
+    text-align: center;
+    color: white;
+    margin: 20%;
+    font-size: 2rem;
+}
+.imagenCliente{
+    margin-top: 10%;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1rem;
+    height: 50px;
+}
